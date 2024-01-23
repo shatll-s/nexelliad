@@ -1,7 +1,6 @@
 package externalapi
 
 // BlockLevelParents represent the parents within a single super-block level
-// See https://github.com/Nexellia-Network/research/issues/3 for further details
 type BlockLevelParents []*DomainHash
 
 // Equal returns true if this BlockLevelParents is equal to `other`

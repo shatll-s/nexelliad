@@ -104,11 +104,6 @@ Join our discord server using the following link: https://discord.gg/MHn4wStC4h
 The [integrated github issue tracker](https://github.com/shatll-s/nexelliad/issues)
 is used for this project.
 
-
-## Documentation
-
-The [documentation](https://github.com/Nexellia-Network/docs) is a work-in-progress
-
 ## License
 
 Nexelliad is licensed under the copyfree [ISC License](https://choosealicense.com/licenses/isc/).

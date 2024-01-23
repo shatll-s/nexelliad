@@ -1,7 +1,7 @@
 # -- multistage docker build: stage #1: build stage
 FROM golang:1.19-alpine AS build
 
-RUN mkdir -p /go/src/github.com/Nexellia-Network/nexellia/
+RUN mkdir -p /go/src/github.com/shatll-s/nexelliad/
 
 WORKDIR /go/src/github.com/shatll-s/nexelliad/
 

@@ -3,7 +3,7 @@ FROM golang:1.19-alpine AS build
 
 RUN mkdir -p /go/src/github.com/shatll-s/nexelliad
 
-WORKDIR /go/src/github.com/Nexellia-Network/nexelliad
+WORKDIR /go/src/github.com/shatll-s/nexelliad
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 #RUN apk add --no-cache git

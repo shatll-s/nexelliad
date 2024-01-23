@@ -6,7 +6,7 @@ FROM ${KASPAMINER_IMAGE} as nexelliaminer
 
 FROM golang:1.19-alpine
 
-RUN mkdir -p /go/src/github.com/Nexellia-Network/nexellia/
+RUN mkdir -p /go/src/github.com/shatll-s/nexelliad/
 
 WORKDIR /go/src/github.com/shatll-s/nexelliad/
 
