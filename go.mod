@@ -1,3 +1,4 @@
+
 module github.com/shatll-s/nexelliad
 
 go 1.18
