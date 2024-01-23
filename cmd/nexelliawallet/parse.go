@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet/serialization"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet/serialization"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
 	"github.com/pkg/errors"
 )
 

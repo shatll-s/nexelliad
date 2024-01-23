@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/server"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/server"
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
 	"google.golang.org/grpc"
 )
 

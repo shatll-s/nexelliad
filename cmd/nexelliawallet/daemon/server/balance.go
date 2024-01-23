@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
 )
 
 type balancesType struct{ available, pending uint64 }

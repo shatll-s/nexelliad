@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 )
 
 type jsonBlock struct {

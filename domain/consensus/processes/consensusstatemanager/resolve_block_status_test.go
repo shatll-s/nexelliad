@@ -4,18 +4,18 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
 )
 
 func TestDoubleSpends(t *testing.T) {

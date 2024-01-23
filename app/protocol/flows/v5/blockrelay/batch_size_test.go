@@ -3,7 +3,7 @@ package blockrelay
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 func TestIBDBatchSizeLessThanRouteCapacity(t *testing.T) {

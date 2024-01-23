@@ -5,17 +5,17 @@ import (
 	"math"
 	"math/big"
 
-	difficultyPackage "github.com/Nexellia-Network/nexelliad/util/difficulty"
+	difficultyPackage "github.com/shatll-s/nexelliad/util/difficulty"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashes"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashes"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 )
 
 // ErrBuildBlockVerboseDataInvalidBlock indicates that a block that was given to BuildBlockVerboseData is invalid.

@@ -3,8 +3,8 @@ package common
 import (
 	"time"
 
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	routerpkg "github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	routerpkg "github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 
 	"github.com/pkg/errors"
 )

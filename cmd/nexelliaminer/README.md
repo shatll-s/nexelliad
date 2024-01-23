@@ -22,7 +22,7 @@ $ go version
 - Run the following commands to obtain and install nexelliad including all dependencies:
 
 ```bash
-$ git clone https://github.com/Nexellia-Network/nexelliad/
+$ git clone https://github.com/shatll-s/nexelliad/
 $ cd nexellia/cmd/nexelliaminer
 $ go install .
 ```

@@ -1,6 +1,6 @@
 package winservice
 
-import "github.com/Nexellia-Network/nexelliad/infrastructure/config"
+import "github.com/shatll-s/nexelliad/infrastructure/config"
 
 // ServiceDescription contains information about a service, needed to administer it
 type ServiceDescription struct {

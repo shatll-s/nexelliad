@@ -4,17 +4,17 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/blockheader"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/blockheader"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/merkle"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/merkle"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/util/mstime"
 )
 
 type blockBuilder struct {

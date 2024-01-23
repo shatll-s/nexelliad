@@ -3,20 +3,20 @@ package transactionrelay_test
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flowcontext"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/transactionrelay"
+	"github.com/shatll-s/nexelliad/app/protocol/flowcontext"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/transactionrelay"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager/mempool"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/miningmanager/mempool"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/util/panics"
 	"github.com/pkg/errors"
 )
 

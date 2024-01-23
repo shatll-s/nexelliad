@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 )
 
 const logLevel = logger.LevelWarn

@@ -3,10 +3,10 @@ package main
 import (
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common/rpc"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/stability-tests/common/rpc"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 )

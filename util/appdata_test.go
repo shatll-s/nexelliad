@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util"
 )
 
 // TestAppDataDir tests the API for AppDir to ensure it gives expected

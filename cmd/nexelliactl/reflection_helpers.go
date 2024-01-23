@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"unicode"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 // protobuf generates the command types with two types:

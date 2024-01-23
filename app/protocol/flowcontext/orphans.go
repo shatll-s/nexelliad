@@ -1,11 +1,11 @@
 package flowcontext
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashset"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashset"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

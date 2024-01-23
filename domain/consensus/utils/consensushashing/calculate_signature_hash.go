@@ -1,10 +1,10 @@
 package consensushashing
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashes"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/serialization"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashes"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/serialization"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/subnetworks"
 	"github.com/pkg/errors"
 )
 

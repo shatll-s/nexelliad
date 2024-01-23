@@ -1,13 +1,13 @@
 package consensusstatemanager
 
 import (
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/util/math"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/util/math"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashset"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashset"
 )
 
 func (csm *consensusStateManager) pickVirtualParents(stagingArea *model.StagingArea, tips []*externalapi.DomainHash) ([]*externalapi.DomainHash, error) {

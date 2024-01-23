@@ -6,17 +6,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flowcontext"
+	"github.com/shatll-s/nexelliad/app/protocol/flowcontext"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/kaspanet/go-secp256k1"
 )
 

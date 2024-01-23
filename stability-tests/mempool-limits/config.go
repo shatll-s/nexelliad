@@ -3,7 +3,7 @@ package mempoollimits
 import (
 	"path/filepath"
 
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
 	"github.com/jessevdk/go-flags"
 )
 

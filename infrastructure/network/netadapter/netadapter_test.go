@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 // routerInitializerForTest returns new RouterInitializer which simply sets

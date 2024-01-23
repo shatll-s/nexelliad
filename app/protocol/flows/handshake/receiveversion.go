@@ -1,12 +1,12 @@
 package handshake
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

@@ -3,10 +3,10 @@ package utxoindex
 import (
 	"encoding/binary"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/database/binaryserialization"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/domain/consensus/database/binaryserialization"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

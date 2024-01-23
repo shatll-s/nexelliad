@@ -1,10 +1,10 @@
 package rpchandlers
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/rpc/rpccontext"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/rpc/rpccontext"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

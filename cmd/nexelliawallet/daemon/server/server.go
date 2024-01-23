@@ -7,18 +7,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/util/txmass"
+	"github.com/shatll-s/nexelliad/util/txmass"
 
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/util/profiling"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/keys"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/signal"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/keys"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient"
+	"github.com/shatll-s/nexelliad/infrastructure/os/signal"
+	"github.com/shatll-s/nexelliad/util/panics"
 	"github.com/pkg/errors"
 
 	"google.golang.org/grpc"

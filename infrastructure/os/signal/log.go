@@ -5,7 +5,7 @@
 package signal
 
 import (
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 )
 
 var kasdLog = logger.RegisterSubSystem("NXLD")

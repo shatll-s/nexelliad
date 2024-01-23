@@ -3,10 +3,10 @@ package integration
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
 )
 
 func TestVirtualSelectedParentChain(t *testing.T) {

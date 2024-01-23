@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // These are the constants specified for maximums in individual scripts.

@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/testapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/blockheader"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/testapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/blockheader"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

@@ -8,14 +8,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common/mine"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common/rpc"
-	"github.com/Nexellia-Network/nexelliad/util"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/stability-tests/common/mine"
+	"github.com/shatll-s/nexelliad/stability-tests/common/rpc"
+	"github.com/shatll-s/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util/panics"
 	"github.com/pkg/errors"
 )
 

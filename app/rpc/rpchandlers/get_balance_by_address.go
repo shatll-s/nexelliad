@@ -1,11 +1,11 @@
 package rpchandlers
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/rpc/rpccontext"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/rpc/rpccontext"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/pkg/errors"
 )
 

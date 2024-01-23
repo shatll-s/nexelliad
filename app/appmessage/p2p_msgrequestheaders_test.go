@@ -7,7 +7,7 @@ package appmessage
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // TestRequstIBDBlocks tests the MsgRequestIBDBlocks API.

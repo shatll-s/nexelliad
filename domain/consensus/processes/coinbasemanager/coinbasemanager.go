@@ -3,13 +3,13 @@ package coinbasemanager
 import (
 	"math"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashset"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashset"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

@@ -5,9 +5,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Nexellia-Network/nexelliad/util/difficulty"
+	"github.com/shatll-s/nexelliad/util/difficulty"
 
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util"
 )
 
 func ExampleAmount() {

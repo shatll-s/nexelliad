@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/util/mstime"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/database"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/util/staging"
+	"github.com/shatll-s/nexelliad/domain/consensus/database"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/util/staging"
 	"github.com/pkg/errors"
 )
 

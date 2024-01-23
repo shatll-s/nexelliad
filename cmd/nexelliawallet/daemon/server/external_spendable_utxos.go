@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/util"
 )
 
 func (s *server) GetExternalSpendableUTXOs(_ context.Context, request *pb.GetExternalSpendableUTXOsRequest) (*pb.GetExternalSpendableUTXOsResponse, error) {

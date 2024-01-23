@@ -6,14 +6,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/blockheader"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashes"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/blockheader"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashes"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionid"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionid"
+	"github.com/shatll-s/nexelliad/util/mstime"
 )
 
 // DomainBlockToMsgBlock converts an externalapi.DomainBlock to MsgBlock

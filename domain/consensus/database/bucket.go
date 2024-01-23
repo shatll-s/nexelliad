@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
 )
 
 func dbBucketToDatabaseBucket(bucket model.DBBucket) *database.Bucket {

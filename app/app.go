@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database/ldb"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/execenv"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/limits"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/signal"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/winservice"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database/ldb"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/os/execenv"
+	"github.com/shatll-s/nexelliad/infrastructure/os/limits"
+	"github.com/shatll-s/nexelliad/infrastructure/os/signal"
+	"github.com/shatll-s/nexelliad/infrastructure/os/winservice"
+	"github.com/shatll-s/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/version"
 )
 
 const (

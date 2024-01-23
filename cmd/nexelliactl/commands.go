@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
 )
 
 var commandTypes = []reflect.Type{

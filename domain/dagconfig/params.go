@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/util/network"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/util/network"
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util"
 )
 
 // These variables are the DAG proof-of-work limit parameters for each default

@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common/rpc"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/stability-tests/common/rpc"
+	"github.com/shatll-s/nexelliad/util/profiling"
 )
 
 var timeout = 30 * time.Second

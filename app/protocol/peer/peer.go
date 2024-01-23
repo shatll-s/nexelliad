@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/id"
-	mathUtil "github.com/Nexellia-Network/nexelliad/util/math"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/id"
+	mathUtil "github.com/shatll-s/nexelliad/util/math"
+	"github.com/shatll-s/nexelliad/util/mstime"
 )
 
 // Peer holds data about a peer.

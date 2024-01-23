@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 // DAABlocksStore represents a store of ???
 type DAABlocksStore interface {

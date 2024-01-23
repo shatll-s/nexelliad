@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // MutableReachabilityData represents a node in the reachability tree

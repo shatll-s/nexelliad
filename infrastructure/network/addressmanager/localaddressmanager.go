@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

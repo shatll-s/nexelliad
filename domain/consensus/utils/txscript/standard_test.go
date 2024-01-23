@@ -9,10 +9,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/util"
 )
 
 // mustParseShortForm parses the passed short form script and returns the

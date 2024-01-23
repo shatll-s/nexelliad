@@ -3,21 +3,21 @@ package server
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet/serialization"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet/serialization"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/keys"
-	"github.com/Nexellia-Network/nexelliad/util/txmass"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/keys"
+	"github.com/shatll-s/nexelliad/util/txmass"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
 )
 
 func TestEstimateMassAfterSignatures(t *testing.T) {

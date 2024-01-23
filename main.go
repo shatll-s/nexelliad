@@ -8,7 +8,7 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/app"
+	"github.com/shatll-s/nexelliad/app"
 )
 
 func main() {

@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/util/difficulty"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/util/difficulty"
 	"github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 )

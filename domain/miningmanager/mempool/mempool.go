@@ -3,13 +3,13 @@ package mempool
 import (
 	"sync"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensusreference"
+	"github.com/shatll-s/nexelliad/domain/consensusreference"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	miningmanagermodel "github.com/Nexellia-Network/nexelliad/domain/miningmanager/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	miningmanagermodel "github.com/shatll-s/nexelliad/domain/miningmanager/model"
 )
 
 type mempool struct {

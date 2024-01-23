@@ -13,10 +13,10 @@ import (
 
 	"github.com/gofrs/flock"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/utils"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/utils"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/argon2"
 	"golang.org/x/crypto/chacha20poly1305"

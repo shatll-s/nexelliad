@@ -1,6 +1,6 @@
 package protowire
 
-import "github.com/Nexellia-Network/nexelliad/app/appmessage"
+import "github.com/shatll-s/nexelliad/app/appmessage"
 
 func (x *NexelliadMessage_UnexpectedPruningPoint) toAppMessage() (appmessage.Message, error) {
 	return &appmessage.MsgUnexpectedPruningPoint{}, nil

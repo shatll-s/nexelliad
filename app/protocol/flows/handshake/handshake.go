@@ -3,18 +3,18 @@ package handshake
 import (
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/network/addressmanager"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	routerpkg "github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	routerpkg "github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

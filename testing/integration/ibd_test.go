@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/mining"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/mining"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 )
 
 func TestIBD(t *testing.T) {

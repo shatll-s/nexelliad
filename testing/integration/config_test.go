@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 )
 
 const (

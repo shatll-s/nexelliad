@@ -3,9 +3,9 @@ package mine
 import (
 	"path/filepath"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database/ldb"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database/ldb"
 )
 
 const leveldbCacheSizeMiB = 256

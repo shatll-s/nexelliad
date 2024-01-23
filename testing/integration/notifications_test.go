@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 )
 
 func setOnBlockAddedHandler(t *testing.T, harness *appHarness, handler func(notification *appmessage.BlockAddedNotificationMessage)) {

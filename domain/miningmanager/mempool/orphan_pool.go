@@ -3,16 +3,16 @@ package mempool
 import (
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager/mempool/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/miningmanager/mempool/model"
 	"github.com/pkg/errors"
 )
 

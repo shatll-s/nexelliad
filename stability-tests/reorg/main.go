@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/util/profiling"
 )
 
 func main() {

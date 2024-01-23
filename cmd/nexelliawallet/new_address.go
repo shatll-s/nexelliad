@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/client"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/client"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
 )
 
 func newAddress(conf *newAddressConfig) error {

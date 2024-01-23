@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

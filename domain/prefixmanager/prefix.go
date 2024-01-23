@@ -1,8 +1,8 @@
 package prefixmanager
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/prefixmanager/prefix"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/domain/prefixmanager/prefix"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
 )
 
 var activePrefixKey = database.MakeBucket(nil).Key([]byte("active-prefix"))

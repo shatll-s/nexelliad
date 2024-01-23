@@ -3,12 +3,12 @@ package ready
 import (
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
 
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	routerpkg "github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	routerpkg "github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

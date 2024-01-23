@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/addressexchange"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/addressexchange"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/infrastructure/network/addressmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 type fakeReceiveAddressesContext struct{}

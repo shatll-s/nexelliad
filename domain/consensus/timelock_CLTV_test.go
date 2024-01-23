@@ -4,15 +4,15 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
 )
 
 // TestCheckLockTimeVerifyConditionedByDAAScore verifies that an output locked by the CLTV script is spendable only after

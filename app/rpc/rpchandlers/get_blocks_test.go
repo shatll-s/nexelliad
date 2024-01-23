@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/rpc/rpccontext"
-	"github.com/Nexellia-Network/nexelliad/app/rpc/rpchandlers"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/testapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashes"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/rpc/rpccontext"
+	"github.com/shatll-s/nexelliad/app/rpc/rpchandlers"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/testapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashes"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/miningmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 )
 
 type fakeDomain struct {

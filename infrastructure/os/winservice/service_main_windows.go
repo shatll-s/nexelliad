@@ -1,7 +1,7 @@
 package winservice
 
 import (
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 	"github.com/btcsuite/winsvc/svc"
 )
 

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 // BlockHeaderStore represents a store of block headers
 type BlockHeaderStore interface {

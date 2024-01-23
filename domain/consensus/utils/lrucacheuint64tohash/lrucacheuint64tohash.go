@@ -1,6 +1,6 @@
 package lrucacheuint64tohash
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 // LRUCache is a least-recently-used cache from
 // uint64 to DomainHash

@@ -1,16 +1,16 @@
 package v5
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flowcontext"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/addressexchange"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/blockrelay"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/ping"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/rejects"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flows/v5/transactionrelay"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	routerpkg "github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/protocol/flowcontext"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/addressexchange"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/blockrelay"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/ping"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/rejects"
+	"github.com/shatll-s/nexelliad/app/protocol/flows/v5/transactionrelay"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	routerpkg "github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 type protocolManager interface {

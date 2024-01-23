@@ -3,7 +3,7 @@ package reachabilitymanager
 import (
 	"math"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
 	"github.com/pkg/errors"
 )
 

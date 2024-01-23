@@ -5,15 +5,15 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensusreference"
+	"github.com/shatll-s/nexelliad/domain/consensusreference"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager/mempool"
-	"github.com/Nexellia-Network/nexelliad/domain/prefixmanager"
-	"github.com/Nexellia-Network/nexelliad/domain/prefixmanager/prefix"
-	infrastructuredatabase "github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/miningmanager"
+	"github.com/shatll-s/nexelliad/domain/miningmanager/mempool"
+	"github.com/shatll-s/nexelliad/domain/prefixmanager"
+	"github.com/shatll-s/nexelliad/domain/prefixmanager/prefix"
+	infrastructuredatabase "github.com/shatll-s/nexelliad/infrastructure/db/database"
 	"github.com/pkg/errors"
 )
 

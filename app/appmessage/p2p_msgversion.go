@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/version"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/id"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/id"
+	"github.com/shatll-s/nexelliad/util/mstime"
 )
 
 // MaxUserAgentLen is the maximum allowed length for the user agent field in a

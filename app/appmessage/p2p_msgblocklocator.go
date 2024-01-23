@@ -1,7 +1,7 @@
 package appmessage
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // MaxBlockLocatorsPerMsg is the maximum number of block locator hashes allowed

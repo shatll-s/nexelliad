@@ -5,7 +5,7 @@
 package appmessage
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

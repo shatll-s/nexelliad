@@ -4,12 +4,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	routerpkg "github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient/grpcclient"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	routerpkg "github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/shatll-s/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/version"
 	"github.com/pkg/errors"
 )
 

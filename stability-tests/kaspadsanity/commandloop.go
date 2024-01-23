@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
 	"github.com/pkg/errors"
 )
 

@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/client"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/client"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
 	"github.com/pkg/errors"
 )
 

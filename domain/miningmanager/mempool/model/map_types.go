@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // IDToTransactionMap maps transactionID to a MempoolTransaction

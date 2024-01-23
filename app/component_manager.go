@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager/mempool"
+	"github.com/shatll-s/nexelliad/domain/miningmanager/mempool"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol"
-	"github.com/Nexellia-Network/nexelliad/app/rpc"
-	"github.com/Nexellia-Network/nexelliad/domain"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/utxoindex"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	infrastructuredatabase "github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/connmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/id"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/app/protocol"
+	"github.com/shatll-s/nexelliad/app/rpc"
+	"github.com/shatll-s/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/utxoindex"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	infrastructuredatabase "github.com/shatll-s/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/network/addressmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/connmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/id"
+	"github.com/shatll-s/nexelliad/util/panics"
 )
 
 // ComponentManager is a wrapper for all the nexelliad services

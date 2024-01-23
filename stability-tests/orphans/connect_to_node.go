@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/standalone"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/standalone"
 )
 
 func connectToNode() *standalone.Routes {

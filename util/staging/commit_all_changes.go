@@ -3,8 +3,8 @@ package staging
 import (
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 )
 
 // CommitAllChanges creates a transaction in `databaseContext`, and commits all changes in `stagingArea` through it.

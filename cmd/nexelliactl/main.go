@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/version"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient/grpcclient"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient/grpcclient"
 )
 
 func main() {

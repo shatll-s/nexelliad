@@ -1,6 +1,6 @@
 package subnetworks
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 var (
 	// SubnetworkIDNative is the default subnetwork ID which is used for transactions without related payload data

@@ -1,11 +1,11 @@
 package pow
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/hashes"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/serialization"
-	"github.com/Nexellia-Network/nexelliad/util/difficulty"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/hashes"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/serialization"
+	"github.com/shatll-s/nexelliad/util/difficulty"
 
 	"math/big"
 

@@ -3,7 +3,7 @@ package hashes
 import (
 	"hash"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 	"lukechampine.com/blake3"

@@ -5,7 +5,7 @@
 package appmessage
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // MsgRequestAnticone implements the Message interface and represents a kaspa

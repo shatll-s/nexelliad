@@ -3,12 +3,12 @@ package protowire
 import (
 	"math"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionid"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionid"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/util/mstime"
 	"github.com/pkg/errors"
 )
 

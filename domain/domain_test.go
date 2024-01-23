@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/miningmanager/mempool"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database/ldb"
+	"github.com/shatll-s/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/miningmanager/mempool"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database/ldb"
 )
 
 func TestCreateStagingConsensus(t *testing.T) {

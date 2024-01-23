@@ -3,15 +3,15 @@ package consensusstatemanager
 import (
 	"sort"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionhelper"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionhelper"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/merkle"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/merkle"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
 	"github.com/pkg/errors"
 )
 

@@ -1,13 +1,13 @@
 package blockvalidator
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/pow"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/virtual"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/db/database"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/domain/consensus/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/pow"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/virtual"
+	"github.com/shatll-s/nexelliad/infrastructure/db/database"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

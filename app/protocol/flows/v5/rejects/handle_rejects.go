@@ -1,9 +1,9 @@
 package rejects
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 // HandleRejectsContext is the interface for the context needed for the HandleRejects flow.

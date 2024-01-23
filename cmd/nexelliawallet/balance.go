@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/client"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/utils"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/client"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/utils"
 )
 
 func balance(conf *balanceConfig) error {

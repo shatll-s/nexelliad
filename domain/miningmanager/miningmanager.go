@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensusreference"
-	miningmanagermodel "github.com/Nexellia-Network/nexelliad/domain/miningmanager/model"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensusreference"
+	miningmanagermodel "github.com/shatll-s/nexelliad/domain/miningmanager/model"
 )
 
 // MiningManager creates block templates for mining as well as maintaining

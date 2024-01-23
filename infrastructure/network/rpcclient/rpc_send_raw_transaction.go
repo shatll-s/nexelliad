@@ -1,7 +1,7 @@
 package rpcclient
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 )
 
 // SubmitTransaction sends an RPC request respective to the function's name and returns the RPC server's response

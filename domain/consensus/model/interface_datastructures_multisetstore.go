@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 // MultisetStore represents a store of Multisets
 type MultisetStore interface {

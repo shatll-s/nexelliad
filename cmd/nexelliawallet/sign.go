@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/keys"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/keys"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
 	"github.com/pkg/errors"
 )
 

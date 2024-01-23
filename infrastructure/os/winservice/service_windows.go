@@ -7,9 +7,9 @@ package winservice
 import (
 	"fmt"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/signal"
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/os/signal"
+	"github.com/shatll-s/nexelliad/version"
 	"github.com/btcsuite/winsvc/eventlog"
 	"github.com/btcsuite/winsvc/svc"
 )

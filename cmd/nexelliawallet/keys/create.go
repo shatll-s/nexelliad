@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/utils"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/utils"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 )

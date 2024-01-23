@@ -2,7 +2,7 @@ Nexelliad
 ========
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Nexellia-Network/nexelliad/)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/shatll-s/nexelliad/)
 
 Nexelliad is the reference full node Nexellia implementation written in Go (golang).
 
@@ -31,7 +31,7 @@ $ go version
 - Run the following commands to obtain and install nexelliad including all dependencies:
 
 ```bash
-$ git clone https://github.com/Nexellia-Network/nexelliad/
+$ git clone https://github.com/shatll-s/nexelliad/
 $ cd nexellia
 $ go install . ./cmd/...
 ```
@@ -101,7 +101,7 @@ Join our discord server using the following link: https://discord.gg/MHn4wStC4h
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/Nexellia-Network/nexelliad/issues)
+The [integrated github issue tracker](https://github.com/shatll-s/nexelliad/issues)
 is used for this project.
 
 

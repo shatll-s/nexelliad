@@ -1,7 +1,7 @@
 package connmanager
 
 import (
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 )
 
 type connectionSet map[string]*netadapter.NetConnection

@@ -3,14 +3,14 @@ package blockrelay
 import (
 	"errors"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	"github.com/Nexellia-Network/nexelliad/domain"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/ruleerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/ruleerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 // HandleRequestPruningPointUTXOSetContext is the interface for the context needed for the HandleRequestPruningPointUTXOSet flow.

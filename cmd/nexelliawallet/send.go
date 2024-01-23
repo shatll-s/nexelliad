@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/client"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/daemon/pb"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/keys"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/client"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/daemon/pb"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/keys"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 )
 

@@ -5,13 +5,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/server/grpcserver/protowire"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/server"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/server"
 	"google.golang.org/grpc"
 )
 

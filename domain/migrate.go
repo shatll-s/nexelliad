@@ -3,7 +3,7 @@ package domain
 import (
 	"math"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

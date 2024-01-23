@@ -3,9 +3,9 @@ package main
 import (
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/logger"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient"
 	"github.com/pkg/errors"
 )
 

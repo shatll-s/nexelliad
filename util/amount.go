@@ -8,7 +8,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 	"github.com/pkg/errors"
 )
 

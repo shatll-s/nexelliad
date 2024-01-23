@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 	"github.com/pkg/errors"
 )
 

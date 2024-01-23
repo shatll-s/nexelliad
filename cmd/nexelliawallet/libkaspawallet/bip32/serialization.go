@@ -3,7 +3,7 @@ package bip32
 import (
 	"encoding/binary"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet/bip32/base58"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet/bip32/base58"
 	"github.com/kaspanet/go-secp256k1"
 	"github.com/pkg/errors"
 )

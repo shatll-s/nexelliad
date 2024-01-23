@@ -11,12 +11,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionid"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionid"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 	"github.com/davecgh/go-spew/spew"
 )
 

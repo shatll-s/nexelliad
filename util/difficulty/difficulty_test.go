@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/util/difficulty"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/util/difficulty"
 )
 
 func TestGetHashrateString(t *testing.T) {

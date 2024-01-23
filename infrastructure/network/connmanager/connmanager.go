@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/dnsseed"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/addressmanager"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 )
 
 // connectionRequest represents a user request (either through CLI or RPC) to connect to a certain node

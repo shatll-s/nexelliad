@@ -1,8 +1,8 @@
 package consensusstatestore
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/database/serialization"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/database/serialization"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 	"github.com/golang/protobuf/proto"
 )
 

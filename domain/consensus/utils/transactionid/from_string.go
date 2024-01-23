@@ -1,7 +1,7 @@
 package transactionid
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // FromString creates a new DomainTransactionID from the given string

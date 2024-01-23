@@ -3,10 +3,10 @@ package rpc
 import (
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 )
 
 const defaultRPCServer = "localhost"

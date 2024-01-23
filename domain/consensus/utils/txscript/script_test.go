@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

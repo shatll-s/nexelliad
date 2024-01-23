@@ -9,17 +9,17 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensusreference"
+	"github.com/shatll-s/nexelliad/domain/consensusreference"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/testutils"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/testutils"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus"
+	"github.com/shatll-s/nexelliad/domain/consensus"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/txscript"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/txscript"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/pkg/errors"
 )
 

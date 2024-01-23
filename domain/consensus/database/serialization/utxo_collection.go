@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/utxo"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/utxo"
 )
 
 func utxoCollectionToDBUTXOCollection(utxoCollection externalapi.UTXOCollection) ([]*DbUtxoCollectionItem, error) {

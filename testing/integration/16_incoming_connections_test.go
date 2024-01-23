@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/app/appmessage"
 )
 
 func Test16IncomingConnections(t *testing.T) {

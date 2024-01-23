@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/keys"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/libkaspawallet"
-	"github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/utils"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/keys"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/libkaspawallet"
+	"github.com/shatll-s/nexelliad/cmd/nexelliawallet/utils"
 
 	"github.com/pkg/errors"
 )

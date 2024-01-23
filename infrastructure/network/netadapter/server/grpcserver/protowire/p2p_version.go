@@ -1,9 +1,9 @@
 package protowire
 
 import (
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/id"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/id"
+	"github.com/shatll-s/nexelliad/util/mstime"
 	"github.com/pkg/errors"
 )
 

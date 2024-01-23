@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/consensushashing"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/consensushashing"
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/constants"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/constants"
 
 	"github.com/kaspanet/go-secp256k1"
 )

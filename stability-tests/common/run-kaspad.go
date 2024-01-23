@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
 )
 
 // RunNexelliadForTesting runs nexelliad for testing purposes

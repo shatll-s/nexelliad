@@ -3,7 +3,7 @@ FROM golang:1.18-alpine AS build
 
 RUN mkdir -p /go/src/github.com/Nexellia-Network/nexellia/
 
-WORKDIR /go/src/github.com/Nexellia-Network/nexelliad/
+WORKDIR /go/src/github.com/shatll-s/nexelliad/
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 
@@ -14,7 +14,7 @@ RUN go mod download
 
 COPY . .
 
-WORKDIR /go/src/github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet
+WORKDIR /go/src/github.com/shatll-s/nexelliad/cmd/nexelliawallet
 RUN GOOS=linux go build -a -installsuffix cgo -o nexelliawallet .
 
 # --- multistage docker build: stage #2: runtime image
@@ -23,7 +23,7 @@ WORKDIR /app
 
 RUN apk add --no-cache ca-certificates tini
 
-COPY --from=build /go/src/github.com/Nexellia-Network/nexelliad/cmd/nexelliawallet/nexelliawallet /app/
+COPY --from=build /go/src/github.com/shatll-s/nexelliad/cmd/nexelliawallet/nexelliawallet /app/
 
 USER nobody
 ENTRYPOINT [ "/sbin/tini", "--" ]

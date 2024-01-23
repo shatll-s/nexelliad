@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/util/mstime"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/util/mstime"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/id"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/id"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

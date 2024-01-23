@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
 )
 
 // OnConnectedHandler is a function that is to be called

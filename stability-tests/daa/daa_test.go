@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/pow"
-	"github.com/Nexellia-Network/nexelliad/domain/dagconfig"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/rpcclient"
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/pow"
+	"github.com/shatll-s/nexelliad/domain/dagconfig"
+	"github.com/shatll-s/nexelliad/infrastructure/network/rpcclient"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
 )
 
 const rpcAddress = "localhost:9000"

@@ -1,5 +1,5 @@
 package pruningmanager
 
-import "github.com/Nexellia-Network/nexelliad/infrastructure/logger"
+import "github.com/shatll-s/nexelliad/infrastructure/logger"
 
 var log = logger.RegisterSubSystem("PRNM")

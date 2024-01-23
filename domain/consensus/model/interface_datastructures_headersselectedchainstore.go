@@ -1,6 +1,6 @@
 package model
 
-import "github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+import "github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
 // HeadersSelectedChainStore represents a store of the headers selected chain
 type HeadersSelectedChainStore interface {

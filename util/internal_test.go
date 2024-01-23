@@ -12,7 +12,7 @@ interface. The functions are only exported while the tests are being run.
 package util
 
 import (
-	"github.com/Nexellia-Network/nexelliad/util/bech32"
+	"github.com/shatll-s/nexelliad/util/bech32"
 	"golang.org/x/crypto/blake2b"
 )
 

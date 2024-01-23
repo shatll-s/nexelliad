@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/transactionid"
+	"github.com/shatll-s/nexelliad/domain/consensus/utils/transactionid"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 func (mud *mutableUTXODiff) equal(other *mutableUTXODiff) bool {

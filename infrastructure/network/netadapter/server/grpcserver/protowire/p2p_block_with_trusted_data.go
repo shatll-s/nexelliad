@@ -3,8 +3,8 @@ package protowire
 import (
 	"math/big"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

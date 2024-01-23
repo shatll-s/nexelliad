@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util"
 
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/version"
 
 	"github.com/pkg/errors"
 
 	_ "net/http/pprof"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/signal"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/infrastructure/os/signal"
+	"github.com/shatll-s/nexelliad/util/panics"
+	"github.com/shatll-s/nexelliad/util/profiling"
 )
 
 func main() {

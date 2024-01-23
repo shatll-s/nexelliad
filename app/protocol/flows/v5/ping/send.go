@@ -3,15 +3,15 @@ package ping
 import (
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flowcontext"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/protocol/flowcontext"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	"github.com/Nexellia-Network/nexelliad/app/protocol/protocolerrors"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/router"
-	"github.com/Nexellia-Network/nexelliad/util/random"
+	"github.com/shatll-s/nexelliad/app/appmessage"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	"github.com/shatll-s/nexelliad/app/protocol/protocolerrors"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter/router"
+	"github.com/shatll-s/nexelliad/util/random"
 )
 
 // SendPingsContext is the interface for the context needed for the SendPings flow.

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/stability-tests/common"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/shatll-s/nexelliad/stability-tests/common"
+	"github.com/shatll-s/nexelliad/util/profiling"
 )
 
 const timeout = 5 * time.Second

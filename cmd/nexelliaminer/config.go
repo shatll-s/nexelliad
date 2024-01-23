@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/shatll-s/nexelliad/util"
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/version"
+	"github.com/shatll-s/nexelliad/version"
 	"github.com/jessevdk/go-flags"
 )
 

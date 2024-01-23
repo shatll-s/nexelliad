@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
+	"github.com/shatll-s/nexelliad/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/nexelliad/domain"
+	"github.com/shatll-s/nexelliad/domain"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/flowcontext"
-	peerpkg "github.com/Nexellia-Network/nexelliad/app/protocol/peer"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/connmanager"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter"
+	"github.com/shatll-s/nexelliad/app/protocol/flowcontext"
+	peerpkg "github.com/shatll-s/nexelliad/app/protocol/peer"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/network/addressmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/connmanager"
+	"github.com/shatll-s/nexelliad/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

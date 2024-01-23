@@ -3,7 +3,7 @@ package flowcontext
 import (
 	"sync"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/shatll-s/nexelliad/domain/consensus/model/externalapi"
 )
 
 // SharedRequestedTransactions is a data structure that is shared between peers that

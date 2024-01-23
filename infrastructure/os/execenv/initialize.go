@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/limits"
+	"github.com/shatll-s/nexelliad/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run nexelliad

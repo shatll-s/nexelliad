@@ -8,7 +8,7 @@ FROM golang:1.19-alpine
 
 RUN mkdir -p /go/src/github.com/Nexellia-Network/nexellia/
 
-WORKDIR /go/src/github.com/Nexellia-Network/nexelliad/
+WORKDIR /go/src/github.com/shatll-s/nexelliad/
 
 RUN apk add bash build-base git
 
@@ -23,7 +23,7 @@ COPY --from=nexelliad /app/ /app/
 COPY --from=nexelliaminer /app/ /app/
 ENV PATH="/app:${PATH}"
 
-WORKDIR /go/src/github.com/Nexellia-Network/nexelliad/stability-tests
+WORKDIR /go/src/github.com/shatll-s/nexelliad/stability-tests
 
 RUN go install ./...
 

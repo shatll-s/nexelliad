@@ -3,7 +3,7 @@ package addressmanager
 import (
 	"net"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/shatll-s/nexelliad/infrastructure/config"
 )
 
 // Config is a descriptor which specifies the AddressManager instance configuration.
